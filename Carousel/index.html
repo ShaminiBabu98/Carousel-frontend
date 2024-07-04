@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+
+      body{
+        background-color:cadetblue;
+      }
+        .carousel, .carousel.img{
+            height: 300px !important;
+            width: 500px !important;
+            overflow: hidden;
+
+        }
+         img{
+            object-fit: contain;
+            object position: bottom: ;
+            
+        } 
+
+        #carouselExample{
+          margin-top: 10%;
+          margin-left: 35%;
+          align-items: center;
+        }
+
+        h3{
+          color: black;
+          text-decoration: underline;
+          text-align: center;
+          padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+  <h3>Carousel</h3>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://besthqwallpapers.com/Uploads/27-1-2020/119894/thumb2-html5-logo-white-silk-texture-html5-emblem-programming-language-html.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.dAQz4zoKwhWXR0wVN6qBSQHaF7&pid=Api&P=0&h=180" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="http://pluspng.com/img-png/bootstrap-logo-png-bootstrap-600.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
